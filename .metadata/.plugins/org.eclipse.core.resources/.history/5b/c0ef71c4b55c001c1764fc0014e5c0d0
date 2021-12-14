@@ -1,6 +1,0 @@
-package helloword.config;
-
-@con
-public class ApplicationConfig {
-
-}

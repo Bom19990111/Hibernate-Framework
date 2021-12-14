@@ -65,3 +65,8 @@ Dec 14, 2021 22:41:59.418 [6516:10656:1214/224159.418:ERROR:chrome_browser_main_
 Dec 14, 2021 22:41:59.427 [6516:4156:1214/224159.426:ERROR:device_event_log_impl.cc(214)] [22:41:59.426] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
 Dec 14, 2021 22:43:36.749 [6516:4156:1214/224336.749:ERROR:interface_endpoint_client.cc(658)] Message 1 rejected by interface blink.mojom.WidgetHost
 Dec 14, 2021 22:43:36.749 [6516:4156:1214/224336.749:ERROR:interface_endpoint_client.cc(658)] Message 1 rejected by interface blink.mojom.WidgetHost
+Dec 14, 2021 23:17:52.119 [8420:13844:1214/231752.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Dec 14, 2021 23:17:52.120 [8420:13844:1214/231752.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Dec 14, 2021 23:17:52.120 [8420:13844:1214/231752.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Dec 14, 2021 23:17:52.122 [8420:13844:1214/231752.121:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Dec 14, 2021 23:17:52.134 [8420:10544:1214/231752.134:ERROR:device_event_log_impl.cc(214)] [23:17:52.134] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
