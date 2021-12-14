@@ -1,0 +1,5 @@
+Preferences.MainPage.overwriteBuildFilesOnExport=prompt
+eclipse.preferences.version=1
+editor.color.instr=255,128,192
+editor.color.tag=0,159,236
+editor.color.xml_comment=128,128,128

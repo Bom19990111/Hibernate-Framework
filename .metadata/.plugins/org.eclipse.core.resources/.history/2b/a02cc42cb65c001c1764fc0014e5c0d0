@@ -1,0 +1,6 @@
+package helloword.config;
+
+@Config
+public class ApplicationConfig {
+
+}

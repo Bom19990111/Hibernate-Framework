@@ -1,0 +1,12 @@
+package helloword.config;
+
+@Config
+public class ApplicationConfig {
+	public InternaLResourcevievfesolver resotvert)(
+	        InternalResourceViewResolver resolver new Interna LResourcevievAesolver();
+	        resotver.setVievClass(JsttView.ctass);
+	        resotver.setPrefixt"MEB-INF/vievs/)
+	        resotver.setSuftixt".jsp"):
+	        return resolver
+}
+

@@ -1,0 +1,15 @@
+package edu.phuxuan.k17.springdemo.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class HomeController {
+	@RequestMapping("/hello")
+	public String handle() {
+		return "hello";
+	}
+
+	@RequestMapping("/home")
+	public String home() {
+		return "home";
+	}
+}

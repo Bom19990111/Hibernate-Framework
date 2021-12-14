@@ -1,0 +1,130 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+  pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>index</title>
+</head>
+<body>
+  <h1>Spring MVC Hello World!</h1>
+  <a href="hello">hello</a>
+</body>
+</html>
+Cấu trúc project sau khi hoàn thành các bước tạo:
+
+
+
+B7. Chạy ứng dụng web trên tomcat
+
+
+
+
+Kết quả:
+
+
+
+
+
+Okay, Done!
+
+Download code ví dụ trên tại đây
+
+Spring MVC – Code ví dụ Spring MVC Hello sử dụng XML config
+References:
+
+https://spring.io/guides/gs/serving-web-content/
+
+
+This entry was posted in Spring, Spring MVC and tagged spring, spring mvc. Bookmark the permalink.
+Điều hướng bài viết
+← Spring MVC – Phần 1: Kiến trúc của Spring MVC, Flow trong Spring MVCSpring MVC – Phần 2: Tạo Ứng dụng Spring MVC Hello sử dụng Annotation config →
+
+
+ 
+SPRING MVC
+Thymeleaf là gì? So sánh JSP, JSF với Thymeleaf
+CHUYÊN MỤC
+Algorithm
+Apache
+Apache JMeter
+Apache Kafka
+AWS
+C/C++
+CDI
+Clean Code
+Demo
+Design Pattern
+Docker
+Eclipse
+Elasticsearch
+Excel
+FAQ
+Framework
+Freemaker
+FreeMarker
+Gradle
+Hibernate
+HttpClient
+HttpComponents
+Install
+Intellij IDEA
+Java
+Java Basic
+Java Core
+Java8
+JavaScript
+jenkins
+jooq
+JSF
+JSP-Servlet
+JUnit
+Library
+Linux
+Maven
+MinIO
+MongoDB
+MySQL
+Network Programming
+NGINX
+Node.js
+notepad++
+OOP
+PostgreSQL
+PrimeFaces
+Principle
+Python
+quartz
+ReactJS
+Redis
+SDKMan
+Security
+SocketCluster
+Spring
+Spring Boot
+Spring Cloud
+Spring Core
+Spring Data
+Spring Hibernate
+Spring JDBC
+Spring MVC
+Spring Security
+ssl
+Thymeleaf
+Tomcat
+Typescript
+Uncategorized
+Web Service
+WebSocket
+Wordpress
+
+ 
+DMCA.com Protection Status
+
+ 
+
+ 
+
+ 
+stackjava.com  
+1

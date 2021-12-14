@@ -1,0 +1,5 @@
+package edu.phuxuan.k17.springdemo.controller;
+
+public class HomeController {
+
+}

@@ -1,0 +1,17 @@
+package controller;
+
+
+
+
+@Controller
+public class MyHomeController {
+	
+	public String home() {
+		return "home";
+	}
+
+
+	public String hello() {
+		return "hello";
+	}
+}

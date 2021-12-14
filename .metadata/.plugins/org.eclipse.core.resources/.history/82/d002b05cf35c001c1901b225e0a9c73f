@@ -1,0 +1,31 @@
+package edu.phuxuan.k17.springdemo.controller;
+
+import java.time.LocalDateTime;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import edu.phuxuan.k17.springdemo.model.Student;
+
+@Controller
+public class HomeController {
+	@RequestMapping("/hello")
+	public String hello(Model model) {
+		Student student = new Student();
+		student.setMessage("Hello World Example Using Spring MVC 5!!!");
+		student.setDateTime(LocalDateTime.now().toString());
+		model.addAttribute("hello", hello);
+		return "hello";
+	}
+
+	@RequestMapping("/")
+	public String home() {
+		return "home";
+	}
+
+	@RequestMapping("/home")
+	public String index() {
+		return "home";
+	}
+}

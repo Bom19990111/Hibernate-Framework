@@ -1,0 +1,67 @@
+
+Dec 04, 2021 20:06:49.598 NEW SESSION
+Dec 04, 2021 20:06:49.598 [Parent 5460, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:542
+Dec 04, 2021 20:07:41.837 [Parent 5460, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:542
+Dec 04, 2021 20:09:07.597 [Parent 5460, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Dec 04, 2021 20:09:23.807 
+Dec 04, 2021 20:09:23.808 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 04, 2021 20:09:23.808 
+Dec 04, 2021 20:09:23.972 
+Dec 04, 2021 20:09:23.974 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 04, 2021 20:09:23.974 
+
+Dec 04, 2021 20:20:01.394 NEW SESSION
+Dec 04, 2021 20:20:01.394 
+Dec 04, 2021 20:20:01.394 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 04, 2021 20:20:01.394 
+Dec 04, 2021 20:22:50.440 
+Dec 04, 2021 20:22:50.440 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 04, 2021 20:22:50.441 
+
+Dec 14, 2021 16:02:06.160 NEW SESSION
+Dec 14, 2021 16:02:06.160 
+Dec 14, 2021 16:02:06.164 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 16:02:06.164 
+Dec 14, 2021 16:11:14.352 [Parent 17188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Dec 14, 2021 16:11:14.353 [Parent 17188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Dec 14, 2021 16:11:14.354 [Parent 17188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Dec 14, 2021 16:11:14.355 [Parent 17188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Dec 14, 2021 16:21:10.883 
+Dec 14, 2021 16:21:10.884 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 16:21:10.884 
+Dec 14, 2021 16:21:20.517 
+Dec 14, 2021 16:21:20.518 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 16:21:20.518 
+Dec 14, 2021 16:24:56.616 
+Dec 14, 2021 16:24:56.616 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 16:24:56.616 
+Dec 14, 2021 16:24:56.623 
+Dec 14, 2021 16:24:56.624 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 16:24:56.624 
+Dec 14, 2021 16:25:39.358 
+Dec 14, 2021 16:25:39.358 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 16:25:39.359 
+Dec 14, 2021 16:25:39.368 
+Dec 14, 2021 16:25:39.368 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 16:25:39.368 
+Dec 14, 2021 16:51:38.648 
+Dec 14, 2021 16:51:38.651 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 16:51:38.651 
+Dec 14, 2021 21:00:51.473 
+Dec 14, 2021 21:00:51.473 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 21:00:51.473 
+
+Dec 14, 2021 21:08:39.280 NEW SESSION
+Dec 14, 2021 21:08:39.280 
+Dec 14, 2021 21:08:39.281 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 21:08:39.281 
+Dec 14, 2021 21:20:15.871 
+Dec 14, 2021 21:20:15.872 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 14, 2021 21:20:15.872 
+Dec 14, 2021 22:41:59.414 [6516:10656:1214/224159.414:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Dec 14, 2021 22:41:59.415 [6516:10656:1214/224159.414:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Dec 14, 2021 22:41:59.415 [6516:10656:1214/224159.414:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Dec 14, 2021 22:41:59.418 [6516:10656:1214/224159.418:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Dec 14, 2021 22:41:59.427 [6516:4156:1214/224159.426:ERROR:device_event_log_impl.cc(214)] [22:41:59.426] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 14, 2021 22:43:36.749 [6516:4156:1214/224336.749:ERROR:interface_endpoint_client.cc(658)] Message 1 rejected by interface blink.mojom.WidgetHost
+Dec 14, 2021 22:43:36.749 [6516:4156:1214/224336.749:ERROR:interface_endpoint_client.cc(658)] Message 1 rejected by interface blink.mojom.WidgetHost

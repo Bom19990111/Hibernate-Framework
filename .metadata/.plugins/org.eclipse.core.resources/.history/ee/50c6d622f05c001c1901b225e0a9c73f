@@ -1,0 +1,5 @@
+package edu.phuxuan.k17.springdemo.config;
+
+public class AppInit {
+
+}

@@ -1,0 +1,8 @@
+dtdData=\#cb7c7c | null | false | false | false | false
+dtdKeyword=\#00ffff | null | false | false | false | false
+dtdString=\#0fb1ff | null | false | true | false | false
+dtdSymbol=\#c9c9c9 | null | false | false | false | false
+dtdTag=\#ffff80 | null | false | false | false | false
+dtdTagName=\#80ff80 | null | false | false | false | false
+eclipse.preferences.version=1
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
