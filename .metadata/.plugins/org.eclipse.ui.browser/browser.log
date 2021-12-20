@@ -70,3 +70,43 @@ Dec 14, 2021 23:17:52.120 [8420:13844:1214/231752.119:ERROR:chrome_browser_main_
 Dec 14, 2021 23:17:52.120 [8420:13844:1214/231752.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
 Dec 14, 2021 23:17:52.122 [8420:13844:1214/231752.121:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
 Dec 14, 2021 23:17:52.134 [8420:10544:1214/231752.134:ERROR:device_event_log_impl.cc(214)] [23:17:52.134] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Dec 16, 2021 21:35:27.534 NEW SESSION
+Dec 16, 2021 21:35:27.534 [12688:19084:1216/213527.532:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Dec 16, 2021 21:35:27.538 [12688:19084:1216/213527.532:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Dec 16, 2021 21:35:27.538 [12688:19084:1216/213527.532:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Dec 16, 2021 21:35:27.538 [12688:19084:1216/213527.535:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Dec 16, 2021 21:35:27.547 [12688:15020:1216/213527.547:ERROR:device_event_log_impl.cc(214)] [21:35:27.547] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Dec 20, 2021 23:49:00.155 NEW SESSION
+Dec 20, 2021 23:49:00.155 [10644:17636:1220/234900.151:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Dec 20, 2021 23:49:00.157 [10644:17636:1220/234900.151:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Dec 20, 2021 23:49:00.157 [10644:17636:1220/234900.151:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Dec 20, 2021 23:49:00.157 [10644:17636:1220/234900.153:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Dec 20, 2021 23:49:00.165 [10644:15668:1220/234900.165:ERROR:device_event_log_impl.cc(214)] [23:49:00.164] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 20, 2021 23:52:19.295 [4796:3000:1220/235219.295:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Dec 20, 2021 23:52:19.295 [4796:3000:1220/235219.295:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Dec 20, 2021 23:52:19.295 [4796:3000:1220/235219.295:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Dec 20, 2021 23:52:19.296 [4796:3000:1220/235219.296:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Dec 20, 2021 23:52:19.312 [4796:20076:1220/235219.312:ERROR:device_event_log_impl.cc(214)] [23:52:19.311] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 20, 2021 23:54:52.182 
+Dec 20, 2021 23:54:52.182 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 20, 2021 23:54:52.182 
+
+Dec 21, 2021 24:00:39.977 NEW SESSION
+Dec 21, 2021 24:00:39.977 [Parent 13808, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Dec 21, 2021 24:00:58.602 [9008:5452:1221/000058.602:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Dec 21, 2021 24:00:58.603 [9008:5452:1221/000058.602:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Dec 21, 2021 24:00:58.603 [9008:5452:1221/000058.602:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Dec 21, 2021 24:00:58.604 [9008:5452:1221/000058.604:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Dec 21, 2021 24:00:58.619 [9008:5792:1221/000058.619:ERROR:device_event_log_impl.cc(214)] [00:00:58.619] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 21, 2021 24:01:49.786 [14980:9348:1221/000149.786:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Dec 21, 2021 24:01:49.786 [14980:9348:1221/000149.786:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Dec 21, 2021 24:01:49.786 [14980:9348:1221/000149.786:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Dec 21, 2021 24:01:49.788 [14980:9348:1221/000149.788:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Dec 21, 2021 24:01:49.802 [14980:19988:1221/000149.802:ERROR:device_event_log_impl.cc(214)] [00:01:49.802] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Dec 21, 2021 24:02:53.277 [5480:18572:1221/000253.277:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+Dec 21, 2021 24:02:53.278 [5480:18572:1221/000253.277:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+Dec 21, 2021 24:02:53.278 [5480:18572:1221/000253.277:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+Dec 21, 2021 24:02:53.280 [5480:18572:1221/000253.279:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+Dec 21, 2021 24:02:53.296 [5480:16672:1221/000253.296:ERROR:device_event_log_impl.cc(214)] [00:02:53.296] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
