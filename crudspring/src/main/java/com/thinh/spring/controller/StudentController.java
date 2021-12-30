@@ -2,9 +2,12 @@ package com.thinh.spring.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -34,10 +37,14 @@ public class StudentController {
 		return "student-form";
 	}
 
-	@PostMapping(value = "/saveStudent", produces = "application/x-ww-form-urlencoded; charset-UTF-8")
-	public String saveStudent(@ModelAttribute("Student") Student theStudent) {
-		studentService.saveStudent(theStudent);
-		return "redirect:/student/list";
+	@PostMapping("/saveStudent")
+	public String saveStudent(@Valid @ModelAttribute("student") Student theStudent, BindingResult thebindingResult) {
+		if (thebindingResult.hasErrors()) {
+			return "student-form";
+		} else {
+			studentService.saveStudent(theStudent);
+			return "redirect:/student/list";
+		}
 	}
 
 	@GetMapping(value = "/updateForm", produces = "application/x-ww-form-urlencoded; charset-UTF-8")
