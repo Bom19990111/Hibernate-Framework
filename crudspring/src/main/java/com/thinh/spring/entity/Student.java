@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name = "student")
@@ -16,15 +18,20 @@ public class Student {
 	private int id;
 
 	@Column(name = "fullname")
+	@NotEmpty(message = "Vui lòng nhập tên!")
 	private String fullName;
 
 	@Column(name = "age")
+
+	@Min(value = 5, message = "Vui lòng nhập tuổi!")
 	private int age;
 
 	@Column(name = "address")
+	@NotEmpty(message = "Vui lòng nhập địa chỉ!")
 	private String address;
 
 	@Column(name = "class_name")
+	@NotEmpty(message = "Vui lòng nhập tên lớp sinh viên đang học!")
 	private String className;
 
 	public Student(int id, String fullName, int age, String address, String className) {

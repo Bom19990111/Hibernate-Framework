@@ -18,24 +18,29 @@
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
 
 </head>
+<style>
+.error-message {
+	color: red;
+	font-weight: 500;
+	font-style: italic;
+}
+</style>
 <body>
 	<div class="container">
 		<div class="col-md-offset-2 col-md-7">
 			<h2 class="text-center">Spring MVC 5 + Hibernate 5 + JSP + MySQL
 				Example</h2>
-			<div class="panel panel-info">			
+			<div class="panel panel-info">
 				<div class="panel-body">
 					<form:form action="saveStudent" cssClass="form-horizontal"
 						method="post" modelAttribute="student">
-
-						<!-- need to associate this data with customer id -->
 						<form:hidden path="id" />
-
 						<div class="form-group">
 							<label for="fullName" class="col-md-3 control-label">Họ
 								tên</label>
 							<div class="col-md-9">
 								<form:input path="fullName" cssClass="form-control" />
+								<form:errors path="fullName" cssClass="error-message" />
 							</div>
 						</div>
 
@@ -43,6 +48,7 @@
 							<label for="age" class="col-md-3 control-label">Tuổi</label>
 							<div class="col-md-9">
 								<form:input type="number" path="age" cssClass="form-control" />
+								<form:errors type="number" path="age" cssClass="error-message" />
 							</div>
 						</div>
 
@@ -51,6 +57,7 @@
 								chỉ</label>
 							<div class="col-md-9">
 								<form:input path="address" cssClass="form-control" />
+								<form:errors path="address" cssClass="error-message" />
 							</div>
 						</div>
 
@@ -58,13 +65,14 @@
 							<label for="class_name" class="col-md-3 control-label">Lớp</label>
 							<div class="col-md-9">
 								<form:input path="className" cssClass="form-control" />
+								<form:errors path="className" cssClass="error-message" />
 							</div>
 						</div>
 						<br>
 						<div class="form-group">
 							<!-- Button -->
 							<div class="col-md-offset-3 col-md-9">
-								<form:button  class="btn btn-primary">Thêm</form:button>
+								<form:button class="btn btn-primary">Thêm</form:button>
 							</div>
 						</div>
 					</form:form>
